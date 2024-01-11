@@ -1,0 +1,45 @@
+/* #titulo-importante{
+    background-color: blueviolet;
+} */
+
+/* 
+id # - mais forte
+class . - menos forte
+tag direto - mais fraco
+*/
+
+
+#teste{
+    background-color: lightgreen;
+}
+
+.sub-titulo{
+    background-color: palevioletred;
+}
+
+
+
+h1{
+    background-color: blue;
+    color: #fff;
+}
+
+/* class é mais forte que tag */
+
+h2{
+    background-color: yellow;
+}
+
+section{
+    background-color: green;
+}
+
+.titulo-secao{
+    color: #fff;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+  
+}

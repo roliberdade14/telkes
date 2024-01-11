@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+    padding: 1%;
+    background-color: orange;
+    color: #fff;
+    border-bottom: 5px solid black;
+    font-family: Arial;  
+}
+
+/* h1{
+    position: relative;
+    top: -20px;
+} */
+
+footer{
+    min-height: 7vh;
+    padding: 0 1%;
+    background-color: black;
+    color: #fff;
+}
+
+main{
+
+    padding: 0 5vh;
+    /* top e base / laterais */
+
+    /* topo, direita, base, esquerda */
+
+    min-height: 80vh;
+}
+
+article{
+   /*  todas as direcoes: 
+    margin: top, direita, base, esquerta
+    margin: 10px, 4px, 2px, 9px; */
+
+    /* somente - topo/base - lados */
+    margin: 2% 0 0 0;
+
+}
+
+p{
+    font-family: Helvetica;
+}
+
+h2{
+    font-family: Arial;
+}
+
+.destaque{
+    color: orange;
+}
