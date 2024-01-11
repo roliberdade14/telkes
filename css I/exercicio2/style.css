@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.longe-bordas {
+  background-color: #FFA6A9;
+  border: 5px solid black;
+  /* topo direita base esquerda */
+  /* padding: 2px 15px 20px 10px; */
+  /*   topo/base   esquerda/direita */
+  padding: 0 35px;
+}
+
+.afastado {
+  background-color: #77C0ED;
+  /* topo direita base esquerda */
+  /*   topo/base   esquerda/direita */
+  margin: 100px;
+}
+
+.alto {
+  background-color: #C3E887;
+  /* height: 300px; */
+  height: 30vh; 
+}
+
+.largo {
+  background-color: #FFE396;
+  /* width: 500px; */
+  width: 50vw;
+}
+
+.bordado {
+  background-color: #AF9BCC;
+  border: 5px double black;
+}
+
+.sumido {
+  display: none;
+}

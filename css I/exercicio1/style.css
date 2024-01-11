@@ -1,0 +1,40 @@
+/* 
+id # - mais forte
+class . - menos forte
+tag direto - mais fraco
+*/
+
+
+h1{
+    background-color: blue;
+    color: #ffffff;
+}
+
+h2{
+    background-color: yellow;
+}
+
+.sub-titulo{
+    background-color: palevioletred;
+}
+
+#titulo-importante{
+    color: pink;
+}
+
+section{
+background-color: green;
+}
+
+.titulo-secao{
+    color: #ffffff;
+}
+
+#titulo-h3{
+    color: red;
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+}
