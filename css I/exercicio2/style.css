@@ -1,0 +1,39 @@
+/* 
+exitem tags bloc e inline
+span inline
+p bloc - ocupa toda a linha */
+
+
+.longe-bordas {
+  background-color: #FFA6A9;
+  padding: 0 10px;
+  border: 1px solid ;
+}
+
+.afastado {
+  background-color: #77C0ED;
+  margin: 10px;
+}
+
+.alto {
+  background-color: #C3E887;
+  /* height: 300px; */
+  height: 30vh;
+}
+
+.largo {
+  background-color: #FFE396;
+  /* width: 500px; */
+  width: 50vw;
+}  
+
+.bordado {
+  background-color: #AF9BCC;
+  border: 1px solid black; 
+  /*   border: 5px dotted black; */
+  /* border: 5px dashed black; */
+} 
+
+.sumido {
+  display: none;
+}
