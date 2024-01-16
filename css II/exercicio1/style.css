@@ -1,0 +1,26 @@
+h1, h2, h3, h4,h5,h6, p{
+    color: orange;
+}
+
+.texto-com-background{
+    background-color: yellow;
+    color: black;
+}
+
+#texto-com-outra-cor{
+    color: green;
+}
+
+section p {
+    background-color: aqua;
+}
+
+section p:nth-child(2){
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+section + span{
+    background-color: pink;
+
+}
