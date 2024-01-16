@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: lightcoral;
+    height: 10vh;
+    position: sticky;
+    top: 0px;
+}
+
+header p{
+    color: #ffffff;
+    font-size: 2rem;
+    position: relative;
+    top: 20%;
+    left: 45%;
+   
+}
+
+main{
+    background-color: lightgray;
+    height: 200vh;
+}
+
+footer{
+    background-color: lightslategray;
+    height: 10vh;
+}
+
+.zap{
+    /* background-color: green; */
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+
+    /* z-index: 1; */
+
+}

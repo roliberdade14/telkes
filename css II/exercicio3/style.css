@@ -1,0 +1,47 @@
+
+button{
+    width: 30vw;
+    height: 10vh;
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+    color: black;
+}
+
+/* button:hover{
+    background-color: red;
+    color: #ffff;
+} */
+
+button:active{
+    /* background-color: pink;
+    color: red; */
+    opacity: 0.5;
+}
+
+div{
+    background-color: aqua;
+    display: inline;
+}
+
+span{
+    background-color: blueviolet;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    height: 10vh;
+    width: 15vw;
+}
+
+li:nth-child(1){
+    background-color: aquamarine;
+}
+
+li:nth-child(2){
+    background-color: yellow;
+}
+li:nth-child(3){
+    background-color: crimson;
+}
