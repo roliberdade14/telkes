@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    height: 10vh;
+}
+
+header button{
+    padding: 0.2rem 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+main{
+    flex-grow: 2;
+}
+
+.main-container{
+    display: flex;
+    height: 100%;
+}
+
+.main-container article{
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.direita{
+    width: 15%;
+}
+.centro{
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.esquerda{
+    width: 15%;
+}
+
+.card{
+    background-color: lightgrey;
+    width: 20%;
+    height: 48%;
+}
+.card p{
+    font-size: 0.9rem;
+    padding: 3%;
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    background-color: grey;
+    height: 10vh;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+}
