@@ -1,0 +1,23 @@
+.container{
+    background-color: lightgreen;
+    height: 50vh;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.elemento-um{
+    background-color: lightcoral;
+    grid-column: 6/7;
+    grid-row: 2/3;
+    
+}
+
+.elemento-dois{
+    background-color: lightseagreen;
+    grid-column: 2/span 4;
+    grid-row: 1/span 2;
+}
+
