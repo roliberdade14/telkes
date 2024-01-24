@@ -1,0 +1,38 @@
+/* configuração geral */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+}
+
+section{
+    font-size: 4rem;
+    border: 1px solid black;
+}
+
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+
+    main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section{
+        background-color: pink;
+    }
+}
+
+@media screen and (max-device-width : 480px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+    section{
+        font-size: 2rem;
+        background-color: lightgreen;
+    }
+}
