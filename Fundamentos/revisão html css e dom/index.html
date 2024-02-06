@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Revisão HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Logo</h1>
+        <button>Logout</button>
+    </header>
+
+    <main>
+
+        <section class="section-container">
+            <button id="btnImg" onclick="motrarImg()">Mostrar Imagem</button>
+        </section>
+
+        <section class="section-container">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, doloribus. Dolore sapiente laboriosam at? Assumenda facilis doloribus nam error nemo officia modi, ea, ullam, iure quos esse libero quo vel.Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, doloribus. Dolore sapiente laboriosam at? Assumenda facilis doloribus nam error nemo officia modi, ea, ullam, iure quos esse libero quo vel.</p>
+            </article>
+
+            <section class="gallery">
+
+                <figure>
+                    <img src="https://via.placeholder.com/150">
+                    <p>Minha Legenda</p>
+                </figure>
+
+                <figure>
+                    <img src="https://via.placeholder.com/150">
+                    <p>Minha Legenda</p>
+
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150">
+                    <p>Minha Legenda</p>
+
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150">
+                    <p>Minha Legenda</p>
+
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150">
+                    <p>Minha Legenda</p>
+
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150">
+                    <p>Minha Legenda</p>
+
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150">
+                    <p>Minha Legenda</p>
+
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150">
+                    <p>Minha Legenda</p>
+
+                </figure>
+
+            </section>
+        </section>
+
+        <section class="section-container">
+            <form>
+                <input id="nome-form" type="text" placeholder="Nome Completo" required>
+                <input id="email-form" type="email" placeholder="Email" required>
+
+                <input id="tel-form" placeholder="00 00000000" pattern="^[0-9]{2}-([0-9]{8}|[0-9]{9})"
+                >
+                <textarea id="msg-form" maxlength="250" required></textarea>
+                <button onclick="capturarForm(event)">Enviar</button>
+            </form>
+
+            <article id="msg"></article>
+        </section>
+
+    </main>
+
+
+    <footer>FOOTER</footer>
+</body>
+
+</html>
