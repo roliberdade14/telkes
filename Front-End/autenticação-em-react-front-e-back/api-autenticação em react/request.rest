@@ -1,0 +1,47 @@
+GET http://localhost:3003/users
+###
+
+POST http://localhost:3003/users/signup
+Content-Type: application/json
+
+{
+    "name": "Userteste3",
+    "email": "userteste3@email.com",
+    "password": "12345"
+}
+###
+
+POST http://localhost:3003/users/login
+Content-Type: application/json
+
+{
+    "email": "userteste3@email.com",
+    "password": "12345"
+}
+
+###
+
+
+POST http://localhost:3003/users/login
+Content-Type: application/json
+
+{
+    "email": "userteste2@email.com",
+    "password": "12345"
+}
+
+###
+
+
+GET http://localhost:3003/products
+###
+
+
+GET http://localhost:3003/products
+Content-Type: application/json
+
+{
+    "name": "ProdutoNovo",
+    "price": 36,
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFlMjYxOTE0LTQ2NzYtNDQwYi04NWJiLTYxOGZjMWRmZGNjZSIsIm5hbWUiOiJVc2VydGVzdGUzIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNjg1Mzg2MzE3LCJleHAiOjE2ODU5OTExMTd9.ZEH_sAmG22y_znoMPtZOBL8vIKXMcfXHem_x4XqdBU8"
+}

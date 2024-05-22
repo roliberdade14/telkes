@@ -1,0 +1,7 @@
+
+Ao abrir o projeto no vscode, na barra do lado esquerdo, na parte inferior, clique me CRIPT NPM, após clique em dev ts-node-dev
+
+A api rodará localmente na sua máquina pelo endereço.
+
+Documentação da API:
+https://documenter.getpostman.com/view/17932380/2sA3QpBYqP
