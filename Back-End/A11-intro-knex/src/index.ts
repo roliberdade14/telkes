@@ -118,7 +118,7 @@ app.put("/bands/:id", async (req: Request, res: Response) => {
                 throw new Error("'name' deve ser string")
             }
 
-            if (newName.length < 2) {
+            if (newName.length < 3) {
                 res.status(400)
                 throw new Error("'name' deve possuir no mínimo 2 caractere")
             }
