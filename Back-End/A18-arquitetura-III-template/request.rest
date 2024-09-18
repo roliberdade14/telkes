@@ -1,0 +1,15 @@
+
+
+GET http://localhost:3003/products
+###
+
+POST http://localhost:3003/products
+Content-Type: application/json
+
+{
+   "id": "p004",
+    "name": "mouse",
+    "price": 0
+}
+###
+
